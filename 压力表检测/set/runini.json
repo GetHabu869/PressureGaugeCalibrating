@@ -1,0 +1,43 @@
+{
+    "file_path": "runs/local_img/left/big",
+    "select": 0,
+    "start": 1,
+    "end": 1,
+
+    "location_hfy": {
+        "HoughCircles": {
+            "minDist": 1000,
+            "param2": 30,
+            "minRadius": 80,
+            "maxRadius": 160
+        }
+    },
+
+    "correct": {
+        "ang": -3
+    },
+
+    "fit_line": {
+        "threshold1": {
+            "thresh": 80
+        },
+        "HoughLines1": {
+            "threshold": 20
+        },
+        "f1_error": 1.01,
+        "threshold2": {
+            "thresh": 80
+        },
+        "dilate": {
+            "iterations": 2
+        },
+        "HoughLines2": {
+            "threshold": 10
+        },
+        "f2_error": 0.5
+    },
+    "read_scale": {
+        "infinite_limit": 0.0001
+
+    }
+}
